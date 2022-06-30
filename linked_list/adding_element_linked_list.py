@@ -1,6 +1,4 @@
 # Linked list implementation in Python
-
-
 class Node:
     # Creating a node
     def __init__(self, item):
