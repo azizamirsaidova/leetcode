@@ -1,6 +1,6 @@
 """
 Given an array of integers arr, write a function absSort(arr), 
-that sorts the array according to the absolute values of the numbers in arr. 
+that sorts the array according to the c 
 If two numbers have the same absolute value, sort them according to sign, 
 where the negative numbers come before the positive numbers.
 
