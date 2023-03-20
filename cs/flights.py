@@ -37,4 +37,4 @@ def flights(minutes, limit):
 
 print(flights(minutes, limit))
 #sum of them should not exceed the limit and 
-#curr value it also should not exceed the limit
+#curr value also should not exceed the limit

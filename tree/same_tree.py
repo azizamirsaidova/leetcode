@@ -16,7 +16,6 @@ Output: false
     b) Else -> return False
 2) After trees have been fully traversed and no differences are discovered, return True
 
-
 """
 
 a = [1,2,3]

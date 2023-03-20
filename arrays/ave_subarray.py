@@ -4,8 +4,8 @@ Array: [1, 3, 2, 6, -1, 4, 1, 8, 2], K=5
 
 Plan:
 
-1. Calculate sum of every 5 elements of subarray
-2. Divide the sum by 5
+1. Calculate sum of every k elements of subarray
+2. Divide the sum by k
 
 """
 

@@ -15,7 +15,6 @@ Output: 10
 1) Sort the input array
 2) Select and return the element in index k - 1
 
-
 """
 
 import heapq

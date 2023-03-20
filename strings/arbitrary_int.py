@@ -10,10 +10,7 @@ Explanation: 123 + 1 = 124
 
 Input: [5,8,9]
 Output: [5,9,0]
-Explanation: 589 + 1 = 590
-
-Plan:
- 
+Explanation: 589 + 1 = 590 
 
 """
 
