@@ -1,20 +1,20 @@
 
 """
-Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target.
+    Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target.
 
-Since the given array is sorted, a brute-force solution could be to iterate through the array, taking one number at a time and searching for the second number through Binary Search. The time complexity of this algorithm will be 
-O(N∗logN)
+    Since the given array is sorted, a brute-force solution could be to iterate through the array, taking one number at a time and searching for the second number through Binary Search. The time complexity of this algorithm will be 
+    O(N∗logN)
 
-We can follow the Two Pointers approach. 
-We will start with one pointer pointing to the beginning of the array and another pointing at the end. 
-At every step, we will see if the numbers pointed by the two pointers add up to the target sum. 
-If they do, we have found our pair; otherwise, we will do one of two things:
+    We can follow the Two Pointers approach. 
+    We will start with one pointer pointing to the beginning of the array and another pointing at the end. 
+    At every step, we will see if the numbers pointed by the two pointers add up to the target sum. 
+    If they do, we have found our pair; otherwise, we will do one of two things:
 
-1. If the sum of the two numbers pointed by the two pointers is greater than the target sum, this means that we need a pair with a smaller sum. So, to try more pairs, we can decrement the end-pointer.
-2. If the sum of the two numbers pointed by the two pointers is smaller than the target sum, this means that we need a pair with a larger sum. So, to try more pairs, we can increment the start-pointer.
+    1. If the sum of the two numbers pointed by the two pointers is greater than the target sum, this means that we need a pair with a smaller sum. So, to try more pairs, we can decrement the end-pointer.
+    2. If the sum of the two numbers pointed by the two pointers is smaller than the target sum, this means that we need a pair with a larger sum. So, to try more pairs, we can increment the start-pointer.
 
-Time Complexity: O(N), where ‘N’ is the total number of elements in the given array.
-Space Complexity: O(1)
+    Time Complexity: O(N), where ‘N’ is the total number of elements in the given array.
+    Space Complexity: O(1)
 
 """
 
